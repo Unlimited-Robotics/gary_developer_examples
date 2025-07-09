@@ -1,0 +1,4 @@
+#!/bin/bash
+exec ros2 run arms_automation both_arms
+
+
