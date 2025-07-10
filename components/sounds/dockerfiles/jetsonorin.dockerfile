@@ -1,4 +1,4 @@
-FROM public.ecr.aws/unlimited-robotics/raya.core.base_images.ubuntu.20.04_l4t.35.3.1_ros.humble:jetsonorin.4.37
+FROM public.ecr.aws/unlimited-robotics/raya.core.base_images.ubuntu.22.04_ros.humble:jetsonorin.4.37
 
 ENV DEBIAN_FRONTEND=noninteractive
 
