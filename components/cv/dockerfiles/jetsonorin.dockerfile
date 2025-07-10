@@ -1,5 +1,4 @@
-ARG REGISTRY_ENDPOINT
-FROM ${REGISTRY_ENDPOINT}/raya.core.base_images.ros_humble:jetsonorin.4.17.beta
+FROM public.ecr.aws/unlimited-robotics/raya.core.base_images.ubuntu.20.04_l4t.35.3.1_ros.humble:jetsonorin.4.37
 
 ENV DEBIAN_FRONTEND=noninteractive
 
