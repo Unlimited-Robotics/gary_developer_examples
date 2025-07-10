@@ -1,0 +1,8 @@
+src:
+  - gary_developer_examples
+
+ros_pkgs:
+  - leds
+
+shared_pkgs:
+  - leds

@@ -1,5 +1,0 @@
-#!/bin/bash
-
-ros2 launch gary_arms_automation right_gripper.launch.py
-
-

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+SCRIPT="/robot/src/gary_developer_examples/leds/led_node.py"
+echo "${LOGS_PREFIX}Executing example..."
+
+mkdir -p /robot/generic_persistent_data/examples
+cp -r /robot/component_static_data/* /robot/generic_persistent_data/examples/leds 2>/dev/null || true
+
+# Try to find python3, fallback to python if not found
+PYTHON=$(command -v python3 || command -v python)
+if [ -z "$PYTHON" ]; then
+  echo "ERROR: python3 or python not found in PATH."
+  exit 1
+fi
+
+$PYTHON "$SCRIPT"
