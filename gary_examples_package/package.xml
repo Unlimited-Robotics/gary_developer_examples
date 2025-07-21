@@ -8,8 +8,8 @@
   <license>TODO: License declaration</license>
   <depend>rclpy</depend>
   <depend>pymoveit2</depend>
-  <depend>gary_arms_msgs</depend>
-  <depend>gary_gripper_msgs</depend>
+  <!-- <depend>gary_arms_msgs</depend>
+  <depend>gary_gripper_msgs</depend> -->
   <depend>control_msgs</depend>
   <depend>moveit_msgs</depend>
   <test_depend>ament_copyright</test_depend>

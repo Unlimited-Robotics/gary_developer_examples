@@ -1,12 +1,9 @@
 
 src:
-  - gary_core_automation
-  - gary_core_control
+  - gary_developer_examples
 
 ros_pkgs:
-  - gary_arms_automation
-  - gary_arms_msgs
-  - gary_hardware_msgs
-  - gary_gripper_msgs
-  - pymoveit2
+  - gary_examples_package
 
+shared_pkgs:
+  - gary_examples_package
