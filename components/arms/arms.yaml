@@ -3,7 +3,8 @@ src:
   - gary_developer_examples
 
 ros_pkgs:
-  - gary_examples_package
+  - arms
+  - pymoveit2
 
 shared_pkgs:
-  - gary_examples_package
+  - arms

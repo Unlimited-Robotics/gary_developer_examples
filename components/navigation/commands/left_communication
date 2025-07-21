@@ -1,5 +1,0 @@
-#!/bin/bash
-
- exec ros2 run gary_arms_automation left_communication
-
-

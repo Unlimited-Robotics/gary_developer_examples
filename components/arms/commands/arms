@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ros2 launch arms arms.launch.py
+
+
